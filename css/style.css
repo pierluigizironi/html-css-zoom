@@ -7,13 +7,9 @@
   font-family: "Lato", sans-serif;
 }
 
-body {
-  height: 100vh;
-  width: 100wh;
-}
-
 a {
   text-decoration: none;
+  color: white;
 }
 
 .container {
@@ -27,7 +23,6 @@ a {
 /* Utilities */
 
 .btn {
-  color: white;
   font-size: 0.8em;
   padding: 5px 5px;
   margin-left: 5px;
@@ -40,6 +35,10 @@ a {
   margin-left: 0px;
   padding: 5px 5px;
   background-color: rgba(74, 74, 74, 0.8);
+}
+
+.txt-green {
+  color: #4bc800;
 }
 
 /* Header */
@@ -59,6 +58,9 @@ header {
 
 main {
   background-color: #000;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100wh;
 }
 
 .listener-camera {
@@ -76,4 +78,33 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+/* Footer */
+
+footer {
+  height: 100px;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 5px;
+}
+
+footer .fas {
+  font-size: 40px;
+}
+
+#end-session {
+  background-color: #4a4a4a;
+  height: 100%;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#end-session a {
+  color: red;
 }
