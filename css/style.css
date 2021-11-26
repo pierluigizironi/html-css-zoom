@@ -16,6 +16,29 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+/* Utilities */
+
+.btn {
+  color: white;
+  font-size: 0.8em;
+  padding: 5px 5px;
+  margin-left: 5px;
+  background-color: #4a4a4a;
+}
+
+.btn.btn-listener {
+  color: white;
+  font-size: 0.8em;
+  margin-left: 0px;
+  padding: 5px 5px;
+  background-color: rgba(74, 74, 74, 0.8);
+}
+
 /* Header */
 
 header {
@@ -29,10 +52,25 @@ header {
   justify-content: flex-end;
 }
 
-.header-btn {
-  color: white;
-  font-size: 0.8em;
-  padding: 5px 5px;
-  margin-left: 5px;
-  background-color: #4a4a4a;
+/* Main */
+
+main {
+  background-color: #000;
+  height: 100%;
+}
+
+.listener-camera {
+  background-image: url(https://picsum.photos/200/300);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+  position: relative;
+}
+
+.listener-camera .btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
