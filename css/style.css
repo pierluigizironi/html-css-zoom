@@ -43,7 +43,7 @@ a {
 
 .spacing {
   display: inline;
-  margin: 0px 5px;
+  padding: 0px 10px;
 }
 
 /* Header */
@@ -112,12 +112,16 @@ footer .fas {
   display: flex;
   flex-basis: 5%;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .session-option {
   display: flex;
   flex-basis: 30%;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #end-session {
@@ -131,4 +135,8 @@ footer .fas {
 
 #end-session a {
   color: red;
+}
+
+a .fa-angle-up {
+  font-size: 15px;
 }
